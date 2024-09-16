@@ -1,0 +1,9 @@
+name: "DefUsercentrics"
+
+
+platforms:
+    ios:
+        context:
+            frameworks: ["CFNetwork", "usercentricsbridge", "Usercentrics", "UsercentricsUI", "Security", "MobileCoreServices", "AdSupport", "AppTrackingTransparency", "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreMotion", "CoreTelephony", "Foundation", "MessageUI", "SafariServices", "StoreKit", "SystemConfiguration", "UIKit", "WebKit"]
+            linkFlags:  ["-ObjC", '-Wl,-rpath,/usr/lib/swift', '-Wl,-rpath,@executable_path/Frameworks']
+            libs:       ["z", "swiftCompatibility51", "swiftCompatibility50"]

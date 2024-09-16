@@ -1,0 +1,2 @@
+platform :ios, '12.4'
+pod 'UsercentricsUI', '2.16.0'

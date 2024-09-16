@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB17C472C9444650078FDA2 /* usercentricsbridge.docc in Sources */ = {isa = PBXBuildFile; fileRef = ABB17C462C9444650078FDA2 /* usercentricsbridge.docc */; };
+		ABB17C4D2C9444660078FDA2 /* usercentricsbridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C422C9444650078FDA2 /* usercentricsbridge.framework */; };
+		ABB17C522C9444660078FDA2 /* usercentricsbridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB17C512C9444660078FDA2 /* usercentricsbridgeTests.m */; };
+		ABB17C532C9444660078FDA2 /* usercentricsbridge.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB17C452C9444650078FDA2 /* usercentricsbridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB17C5F2C9444710078FDA2 /* Usercentrics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C5D2C9444710078FDA2 /* Usercentrics.xcframework */; };
+		ABB17C602C9444710078FDA2 /* Usercentrics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C5D2C9444710078FDA2 /* Usercentrics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ABB17C612C9444710078FDA2 /* UsercentricsUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C5E2C9444710078FDA2 /* UsercentricsUI.xcframework */; };
+		ABB17C622C9444710078FDA2 /* UsercentricsUI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C5E2C9444710078FDA2 /* UsercentricsUI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ABB17C652C9444A80078FDA2 /* usercenricsbridge_swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB17C642C9444A80078FDA2 /* usercenricsbridge_swift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB17C4E2C9444660078FDA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB17C392C9444650078FDA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB17C412C9444650078FDA2;
+			remoteInfo = usercentricsbridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABB17C632C9444710078FDA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ABB17C602C9444710078FDA2 /* Usercentrics.xcframework in Embed Frameworks */,
+				ABB17C622C9444710078FDA2 /* UsercentricsUI.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABB17C422C9444650078FDA2 /* usercentricsbridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = usercentricsbridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB17C452C9444650078FDA2 /* usercentricsbridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usercentricsbridge.h; sourceTree = "<group>"; };
+		ABB17C462C9444650078FDA2 /* usercentricsbridge.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = usercentricsbridge.docc; sourceTree = "<group>"; };
+		ABB17C4C2C9444660078FDA2 /* usercentricsbridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usercentricsbridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB17C512C9444660078FDA2 /* usercentricsbridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = usercentricsbridgeTests.m; sourceTree = "<group>"; };
+		ABB17C5D2C9444710078FDA2 /* Usercentrics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Usercentrics.xcframework; path = ../Pods/Usercentrics/Usercentrics.xcframework; sourceTree = "<group>"; };
+		ABB17C5E2C9444710078FDA2 /* UsercentricsUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UsercentricsUI.xcframework; path = ../Pods/UsercentricsUI/UsercentricsUI.xcframework; sourceTree = "<group>"; };
+		ABB17C642C9444A80078FDA2 /* usercenricsbridge_swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usercenricsbridge_swift.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB17C3F2C9444650078FDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB17C5F2C9444710078FDA2 /* Usercentrics.xcframework in Frameworks */,
+				ABB17C612C9444710078FDA2 /* UsercentricsUI.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB17C492C9444660078FDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB17C4D2C9444660078FDA2 /* usercentricsbridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB17C382C9444650078FDA2 = {
+			isa = PBXGroup;
+			children = (
+				ABB17C442C9444650078FDA2 /* usercentricsbridge */,
+				ABB17C502C9444660078FDA2 /* usercentricsbridgeTests */,
+				ABB17C432C9444650078FDA2 /* Products */,
+				ABB17C5C2C9444710078FDA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB17C432C9444650078FDA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB17C422C9444650078FDA2 /* usercentricsbridge.framework */,
+				ABB17C4C2C9444660078FDA2 /* usercentricsbridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB17C442C9444650078FDA2 /* usercentricsbridge */ = {
+			isa = PBXGroup;
+			children = (
+				ABB17C452C9444650078FDA2 /* usercentricsbridge.h */,
+				ABB17C462C9444650078FDA2 /* usercentricsbridge.docc */,
+				ABB17C642C9444A80078FDA2 /* usercenricsbridge_swift.swift */,
+			);
+			path = usercentricsbridge;
+			sourceTree = "<group>";
+		};
+		ABB17C502C9444660078FDA2 /* usercentricsbridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB17C512C9444660078FDA2 /* usercentricsbridgeTests.m */,
+			);
+			path = usercentricsbridgeTests;
+			sourceTree = "<group>";
+		};
+		ABB17C5C2C9444710078FDA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB17C5D2C9444710078FDA2 /* Usercentrics.xcframework */,
+				ABB17C5E2C9444710078FDA2 /* UsercentricsUI.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABB17C3D2C9444650078FDA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB17C532C9444660078FDA2 /* usercentricsbridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABB17C412C9444650078FDA2 /* usercentricsbridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB17C562C9444660078FDA2 /* Build configuration list for PBXNativeTarget "usercentricsbridge" */;
+			buildPhases = (
+				ABB17C3D2C9444650078FDA2 /* Headers */,
+				ABB17C3E2C9444650078FDA2 /* Sources */,
+				ABB17C3F2C9444650078FDA2 /* Frameworks */,
+				ABB17C402C9444650078FDA2 /* Resources */,
+				ABB17C632C9444710078FDA2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = usercentricsbridge;
+			productName = usercentricsbridge;
+			productReference = ABB17C422C9444650078FDA2 /* usercentricsbridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABB17C4B2C9444660078FDA2 /* usercentricsbridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB17C592C9444660078FDA2 /* Build configuration list for PBXNativeTarget "usercentricsbridgeTests" */;
+			buildPhases = (
+				ABB17C482C9444660078FDA2 /* Sources */,
+				ABB17C492C9444660078FDA2 /* Frameworks */,
+				ABB17C4A2C9444660078FDA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB17C4F2C9444660078FDA2 /* PBXTargetDependency */,
+			);
+			name = usercentricsbridgeTests;
+			productName = usercentricsbridgeTests;
+			productReference = ABB17C4C2C9444660078FDA2 /* usercentricsbridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB17C392C9444650078FDA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					ABB17C412C9444650078FDA2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					ABB17C4B2C9444660078FDA2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = ABB17C3C2C9444650078FDA2 /* Build configuration list for PBXProject "usercentricsbridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB17C382C9444650078FDA2;
+			productRefGroup = ABB17C432C9444650078FDA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB17C412C9444650078FDA2 /* usercentricsbridge */,
+				ABB17C4B2C9444660078FDA2 /* usercentricsbridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB17C402C9444650078FDA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB17C4A2C9444660078FDA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB17C3E2C9444650078FDA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB17C472C9444650078FDA2 /* usercentricsbridge.docc in Sources */,
+				ABB17C652C9444A80078FDA2 /* usercenricsbridge_swift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB17C482C9444660078FDA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB17C522C9444660078FDA2 /* usercentricsbridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB17C4F2C9444660078FDA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB17C412C9444650078FDA2 /* usercentricsbridge */;
+			targetProxy = ABB17C4E2C9444660078FDA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABB17C542C9444660078FDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABB17C552C9444660078FDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABB17C572C9444660078FDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N73285634Q;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happygames.usercentricsbridge;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB17C582C9444660078FDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happygames.usercentricsbridge;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABB17C5A2C9444660078FDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.happygames.usercentricsbridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB17C5B2C9444660078FDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.happygames.usercentricsbridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB17C3C2C9444650078FDA2 /* Build configuration list for PBXProject "usercentricsbridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB17C542C9444660078FDA2 /* Debug */,
+				ABB17C552C9444660078FDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB17C562C9444660078FDA2 /* Build configuration list for PBXNativeTarget "usercentricsbridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB17C572C9444660078FDA2 /* Debug */,
+				ABB17C582C9444660078FDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB17C592C9444660078FDA2 /* Build configuration list for PBXNativeTarget "usercentricsbridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB17C5A2C9444660078FDA2 /* Debug */,
+				ABB17C5B2C9444660078FDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB17C392C9444650078FDA2 /* Project object */;
+}

@@ -1,0 +1,7 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.usercentrics.sdk:usercentrics-ui:2.16.0'
+}

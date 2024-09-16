@@ -1,0 +1,24 @@
+
+local function usercentrics_callback(_, message_id, message)
+    if message_id == usercentrics.USERCENTRICS_READY_MSG then
+        pprint("Usercentrics ready: ", message)
+        if not message.error and message.shouldCollectConsent then
+            usercentrics.show_banner(usercentrics.FIRST_LAYER)
+        end
+    elseif message_id == usercentrics.USERCENTRICS_BANNER_SHOWN_MSG then
+        pprint("Usercentrics banner shown", message)
+		if not message.error then
+			-- Handle message.consents
+		end
+    end
+end
+
+function init(self)
+
+	pprint("usercentrics example script")
+    usercentrics.set_callback(usercentrics_callback)
+    usercentrics.set_ruleset_id("<YOUR RULESET ID>")
+    usercentrics.initialize()
+	
+end
+

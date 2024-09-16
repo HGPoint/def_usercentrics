@@ -1,0 +1,11 @@
+framework module usercentricsbridge {
+  umbrella header "usercentricsbridge.h"
+  export *
+
+  module * { export * }
+}
+
+module usercentricsbridge.Swift {
+  header "usercentricsbridge-Swift.h"
+  requires objc
+}
