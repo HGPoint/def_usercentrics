@@ -12,9 +12,7 @@
 		ABB17C522C9444660078FDA2 /* usercentricsbridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB17C512C9444660078FDA2 /* usercentricsbridgeTests.m */; };
 		ABB17C532C9444660078FDA2 /* usercentricsbridge.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB17C452C9444650078FDA2 /* usercentricsbridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABB17C5F2C9444710078FDA2 /* Usercentrics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C5D2C9444710078FDA2 /* Usercentrics.xcframework */; };
-		ABB17C602C9444710078FDA2 /* Usercentrics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C5D2C9444710078FDA2 /* Usercentrics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABB17C612C9444710078FDA2 /* UsercentricsUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C5E2C9444710078FDA2 /* UsercentricsUI.xcframework */; };
-		ABB17C622C9444710078FDA2 /* UsercentricsUI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABB17C5E2C9444710078FDA2 /* UsercentricsUI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABB17C652C9444A80078FDA2 /* usercenricsbridge_swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB17C642C9444A80078FDA2 /* usercenricsbridge_swift.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,21 +25,6 @@
 			remoteInfo = usercentricsbridge;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		ABB17C632C9444710078FDA2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				ABB17C602C9444710078FDA2 /* Usercentrics.xcframework in Embed Frameworks */,
-				ABB17C622C9444710078FDA2 /* UsercentricsUI.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		ABB17C422C9444650078FDA2 /* usercentricsbridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = usercentricsbridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +126,6 @@
 				ABB17C3E2C9444650078FDA2 /* Sources */,
 				ABB17C3F2C9444650078FDA2 /* Frameworks */,
 				ABB17C402C9444650078FDA2 /* Resources */,
-				ABB17C632C9444710078FDA2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,10 +364,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N73285634Q;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -404,6 +386,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.happygames.usercentricsbridge;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

@@ -5,9 +5,6 @@
       location = "group:usercentricsbridge/usercentricsbridge.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:test_usercmp.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
